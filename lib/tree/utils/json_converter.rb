@@ -62,8 +62,7 @@ module Tree::Utils::JSONConverter
 
     json_hash = {
       "name"         => name,
-      "content"      => content,
-      JSON.create_id => self.class.name
+      "content"      => content
     }
 
     if has_children?
